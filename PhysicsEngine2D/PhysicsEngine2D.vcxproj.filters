@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일\Delegate">
+      <UniqueIdentifier>{fd288d20-8e12-4a7f-9ef3-58e99c1b889a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\STDAFX">
+      <UniqueIdentifier>{64d5e5ee-2a8d-471d-836c-d61c980c5860}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Windows">
+      <UniqueIdentifier>{1a9c4baa-87af-447c-b949-272bdfd9a497}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Physics">
+      <UniqueIdentifier>{615c299d-1e6c-48ae-9c81-df40db0c9012}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Math">
+      <UniqueIdentifier>{08a9e941-0428-49a2-863a-93f8e4142ffc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Math\Vector">
+      <UniqueIdentifier>{b61f0852-45bf-4c3c-8d26-28220ee66364}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Math\Matrix">
+      <UniqueIdentifier>{f8bce9cc-f81a-4610-b9fd-fc429110cdcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Physics\Body">
+      <UniqueIdentifier>{ac763973-950f-41e7-9c96-1f5224543b81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Physics\Shape">
+      <UniqueIdentifier>{173f9e34-5e3e-4952-b9ca-b5f11ae3756c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>헤더 파일\STDAFX</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsEngine2D.h">
+      <Filter>헤더 파일\STDAFX</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일\STDAFX</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일\STDAFX</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일\STDAFX</Filter>
+    </ClInclude>
+    <ClInclude Include="Delegate.h">
+      <Filter>헤더 파일\Delegate</Filter>
+    </ClInclude>
+    <ClInclude Include="Function.h">
+      <Filter>헤더 파일\Delegate</Filter>
+    </ClInclude>
+    <ClInclude Include="FunctionConverter.h">
+      <Filter>헤더 파일\Delegate</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryBrush.h">
+      <Filter>헤더 파일\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="RGBColor.h">
+      <Filter>헤더 파일\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryDC.h">
+      <Filter>헤더 파일\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryPen.h">
+      <Filter>헤더 파일\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>헤더 파일\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrame.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="MathUtility.h">
+      <Filter>헤더 파일\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>헤더 파일\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows.h">
+      <Filter>헤더 파일\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>헤더 파일\Math\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3.h">
+      <Filter>헤더 파일\Math\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>헤더 파일\Math\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix3x3.h">
+      <Filter>헤더 파일\Math\Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix.h">
+      <Filter>헤더 파일\Math\Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="Line.h">
+      <Filter>헤더 파일\Physics\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="Circle.h">
+      <Filter>헤더 파일\Physics\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="Rect.h">
+      <Filter>헤더 파일\Physics\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="Shape.h">
+      <Filter>헤더 파일\Physics\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="Body.h">
+      <Filter>헤더 파일\Physics\Body</Filter>
+    </ClInclude>
+    <ClInclude Include="Ball.h">
+      <Filter>헤더 파일\Physics\Body</Filter>
+    </ClInclude>
+    <ClInclude Include="Wall.h">
+      <Filter>헤더 파일\Physics\Body</Filter>
+    </ClInclude>
+    <ClInclude Include="Capsule.h">
+      <Filter>헤더 파일\Physics\Body</Filter>
+    </ClInclude>
+    <ClInclude Include="Box.h">
+      <Filter>헤더 파일\Physics\Body</Filter>
+    </ClInclude>
+    <ClInclude Include="RegularPolygonShape.h">
+      <Filter>헤더 파일\Physics\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="RegularPolygon.h">
+      <Filter>헤더 파일\Physics\Body</Filter>
+    </ClInclude>
+    <ClInclude Include="Star.h">
+      <Filter>헤더 파일\Physics\Body</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PhysicsEngine2D.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MemortDC.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryDC.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryPen.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="RGBColor.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryBrush.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrame.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Ball.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Wall.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix3x3.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector3.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Capsule.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Box.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Line.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Circle.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Rect.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Shape.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Body.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="RegularPolygonShape.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="RegularPolygon.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Star.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="PhysicsEngine2D.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="PhysicsEngine2D.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
